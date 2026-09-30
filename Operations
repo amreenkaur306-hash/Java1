@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+        int total1 = 100 + 50, total2 = 100 - 50, total3 = 100 * 50, total4 = 100 / 50, total5 = 100 % 50;
+        System.out.println(total1);
+        System.out.println(total2);
+        System.out.println(total2);
+        System.out.println(total4);
+        System.out.println(total5);
+        System.out.println(" ");
+        boolean answer1 = 4 == 10, answer2 = 4 != 100, answer3 = 4 > 100, answer4 = 4 < 100, answer5 = 4 >= 100, answer6 = 4 <= 100;
+        System.out.println(answer1);
+        System.out.println(answer2);
+        System.out.println(answer3);
+        System.out.println(answer4);
+        System.out.println(answer5);
+        System.out.println(answer6);
+System.out.println(" ");
+        boolean solution1 = (34>43)&&(33>722), solution2=(38>257)||(38<5748), solution3=!(3782==3892);
+        System.out.println(solution1);
+        System.out.println(solution2);
+        System.out.println(solution3);
+
+    }
+}
