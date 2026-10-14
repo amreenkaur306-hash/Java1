@@ -1,0 +1,22 @@
+public class Main{
+    public static void main (String[] args){
+        int day=2;
+    switch(day){
+        case 1:
+            System.out.println("Mon");
+            break;
+        case 2:
+            System.out.println("Tue");
+            break;
+        case 3:
+            System.out.println("Wed");
+            break;
+        default:
+            System.out.println("Other");
+    }
+    }
+}
+
+//The code prints "Tue"
+/*Break ensures that the cases after the one that is true are not running. If it goes missing, the
+cases after the one that is true will also run making the result wrong*/
