@@ -12,3 +12,8 @@ public class Main {
             }
         }
     }
+
+    /*The code prints warm. If the temp was set to 35, it would print Hot. Yes, the code checks
+    all the conditions. No, the code would not work if (temp>10) was set first because then multiple
+    conditions would run at the same time.
+     */
