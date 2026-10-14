@@ -1,9 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int score = 80;
-        if (score>=50){
+        int score = 40;
+        if (score>=50)
             System.out.println("Pass");
             System.out.println("Done");
-        }
+
     }
 }
+
+//The code prints "Done"
+/*"Done" prints even thought the condition is false because the if statement only applies to the
+code directly under.
+ */
+/*For both lines to belong to if, you would need to put "{}" around the if statements and the
+"System.out.println("Done") statement.*/
