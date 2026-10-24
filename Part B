@@ -1,0 +1,34 @@
+public class PartB {
+    public static void main (String[] args){
+        //Pass or Try again
+        int mark=95;
+        if(mark>50) {
+            System.out.println("Pass");
+        }else{
+            System.out.println("Try Again");
+        }
+
+        //Compare Two Numbers
+        int num=51, num2=54;
+        if (num>num2){
+            System.out.println(num +" is larger than "+num2);
+        }else {
+            System.out.println(num2 + " is larger than " + num);
+        }
+        //Light Switch
+        boolean lightOn=true;
+        if(lightOn) {
+            System.out.println("The light is on");
+        }else{
+            System.out.println("Then light is off");
+        }
+
+        //Discount Calculator
+        double itemPrice=245.0;
+        double discount=itemPrice/10;
+        if(itemPrice>100){
+            System.out.println(itemPrice-discount);
+        }else
+            System.out.println(itemPrice);
+    }
+}
