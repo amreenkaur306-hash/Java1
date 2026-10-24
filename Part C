@@ -1,0 +1,49 @@
+public class PartC {
+    public static void main(String[] args){
+
+    //Grade Category
+    int mark=83;
+    if(mark>80){
+        System.out.println("Excellent");
+    }else if(mark>70){
+        System.out.println("Good");
+    }else if(mark>60){
+        System.out.println("Satisfactory");
+    }else
+        System.out.println("Below passing");
+
+
+    //Weather Advice
+        int temp=38;
+        if (temp>20){
+            System.out.println("Wear light clothing");
+        }else if(temp>0){
+            System.out.println("Wear a jacket");
+        }else
+            System.out.println("Wear a winter coat");
+
+        //Compare Two Values
+
+        int num1=32;
+        int num2=32;
+
+        if (num1==num2){
+            System.out.println("Both Numbers are Equal.");
+        }else if(num1>num2){
+            System.out.println("The first number is greater than the seocnd number.");
+        }else if(num2>num1){
+            System.out.println("The second number is greater than the first number.");
+        }
+
+        //Ticket Price
+        int age=39;
+        if(age>18){
+            System.out.println("$12");
+        }else if(age>12){
+            System.out.println("$8");
+        }else{
+            System.out.println("$5");
+        }
+
+    }
+}
