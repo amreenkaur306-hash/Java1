@@ -1,0 +1,19 @@
+public class PartA {
+    public static void main(String[] args){
+        //Temperature Alert
+        int temp=-5;
+        if (temp<0)
+            System.out.println("Freezing Temperature.");
+
+        //High Score
+        int score=450;
+                if (score>100)
+                    System.out.println("New High Score!");
+
+        //Free Delivery
+        double total=50.01;
+        if (total>50)
+            System.out.println("You qualify for free delivery.");
+
+    }
+}
