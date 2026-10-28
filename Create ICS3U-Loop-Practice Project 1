@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Project1 {
+    public static void main(String[]arg){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a positive number");
+        int one=1;
+        int number=input.nextInt();
+
+        while(one<=number){
+            System.out.println(one);
+            one++;
+        }
+
+
+    }
+}
+
