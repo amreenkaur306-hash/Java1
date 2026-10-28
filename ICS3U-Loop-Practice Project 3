@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Project3 {
+    public static void main(String[]arg){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a positive number");
+        int constant=2;
+        int limit=input.nextInt();
+
+        while(constant<=limit){
+            System.out.println(constant);
+            constant=constant+2;
+        }
+
+
+    }
+}
