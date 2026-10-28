@@ -1,0 +1,14 @@
+public class Project2 {
+    public static void main(String[]arg){
+        System.out.println("Enter a positive number");
+        int constant=10;
+
+        while(constant>0){
+            System.out.println(constant);
+            constant--;
+        }
+
+
+    }
+}
+
